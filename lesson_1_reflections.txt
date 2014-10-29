@@ -1,0 +1,31 @@
+-How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+I could compare line by line between both files and was able to see differences in the code.
+
+
+-How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+It allows you to track differences in the development in your code and makes it easier to spot bugs and rely on different versions of your working files. 
+
+-What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+
+One of the pros is that It encourages you to write maintanable code and develop work step by step once you reach milestones. Having versions automatically saved may save you from a lot headaches in case you forgot to commit code, however, automatic save may probably lead to a more inneficient code maintenance since you may now have to deal with a lot of involuntary commits. 
+
+
+-Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+I think that version control systems are more oriented towards software development; and within a coding environment it is understood that each project or applications recquires multiple files in order to function properly. Having the ability to commit multiple files allows for better code refactogin and code revision. 
+
+
+-How can you use the commands git log and git diff to view the history of files?
+
+You can use git log to give you a broad overview of all your commits, to go back to a previous version, to trace back your software development. With git diff you can compare multiple files, check out on merging errors, refactor code and debug more efficiently.  Both function are great for a better development workflow. 
+
+-How might using version control make you more confident to make changes that could break something?
+
+Having the advantage to resort back to previous versions of your own code allows you to try out different ideas and experiment on different code solutions without the fear of losing or making critical errors that may end up affecting your master version of your code. 
+
+
+-Now that you have your workspace set up, what do you want to try using Git for?
+
+I want to try different branches on some of my own projects. Upload the finished versions to github via remote commit,  and experiment with git from the terminal to agilize my worklow.

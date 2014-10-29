@@ -1,0 +1,11 @@
+1.- What happens when you initialize a repository? Why do you need to do it?
+
+
+	A git file is created in the directory. You do it in order to be able to stage files and commit those files in the git repository. 
+
+
+2.- How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+	The staging area is an intermediate area that allows you to keep control of files by only adding specific changes to files one by one.This give you more control of which files are being changed and which changes should be commited to master.  There are multiple cases where this could be useful: you may not be truly sure if you want to commit changes,  you want to compare files from the working directory o from the master,  you want to revise, o commit multiple files at the same time.
+
+
