@@ -9,3 +9,20 @@
 	The staging area is an intermediate area that allows you to keep control of files by only adding specific changes to files one by one.This give you more control of which files are being changed and which changes should be commited to master.  There are multiple cases where this could be useful: you may not be truly sure if you want to commit changes,  you want to compare files from the working directory o from the master,  you want to revise, o commit multiple files at the same time.
 
 
+3.- How can you use the staging area to make sure you have one commit per logical change?
+
+	The staging area can help you by adding small changes to your code. By specifying exactly what changes should be comitted and adding one file at a time, you make step by step logical chances; this makes your code easier to read and easier to maintain. 
+
+4.- What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+	You may use branches to develop code simultaneously: debuggin, testing, new features. You can also use branches to track different milestones or different stages of your project and later on merge if it is necessary.  I think branches help agilize, experiment and develop faster and securely. 
+
+5.- How do the diagrams help you visualize the branch structure?
+
+	Similar to a timeline, it gives yous a birdseye view of your entire development process: changes, errors, milestones, commitments, and branches. You can visualize your current tip of the branch and the parent of each commit you have made, and have a mindmap of merged branches. 
+
+
+6.- What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+
+
