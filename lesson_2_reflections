@@ -26,6 +26,9 @@
 
 	Merging syncs the commits of both branches by combining both versions into one single master branch. the label of both branches gets deleted to form a new node with multiple parents;  This new master branch commit contains information of the history of each branch merged; Access to the history of the merged branches is possible since there is only one master branch and git commits are interleaved according to the date they were committed. It is represented that way in the diagram because it shows both parent branches merged into one; this means that the label gets deleted (signaled by both arrows meeting halfway into a new node instead of going unidirectional) 
 
-7.- 
+7.- -What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+	It helps you keep all your commits ordered by date and time which can save you a lot of headaches if you do it manually. On the contrary, having all files merge automatically may cause a lot of confusion once the merging has occured, specially if you didn't have a proper track of commitments. 
+
 
 
