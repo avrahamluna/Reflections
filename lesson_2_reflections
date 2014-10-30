@@ -24,5 +24,5 @@
 
 6.- What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
-
+	Merging syncs the commits of both branches by combining both versions into one single master branch. The commit contains information from the history of each version; the label of one branch is deleted but you can stil have access to the history of the merged brach; Access to the history of the merged branch is possible since there is only one master branch and the commits are interleaved according to the date they were committed.    If you do a git log you can now have acces to all avai It is represented that way in the diagram because it shows both parent branches merged into one; this means that the label gets deleted (signaled by both arrows meeting halfway instead of going unidirectional) 
 
